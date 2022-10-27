@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 65.5%;
+}
+
+body {
+    background-color: #1f1f1f;
+}
+
+h1 {
+    margin-left: 42%;
+    margin-top: 10%;
+    font-size: 10.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.blue {
+    color: blue;
+}
+
+.red {
+    color: red;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.green {
+    color: green;
+}
+
+#tool {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search{
+    background-color: transparent;
+    border: 1px solid #a29e9e;
+    width: 63rem;
+    height: 4rem;
+    border-radius: 3rem;
+    color: white;
+}
+
+#glass, #micro, #camera {
+    border: none;
+    background-color: transparent;
+    color: #a29e9e;
+}
+#glass {
+    margin-right: -2.5rem;
+}
+
+#micro, #camera {
+    margin-left: -3rem;
+}
